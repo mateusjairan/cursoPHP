@@ -12,6 +12,7 @@
     // echo "o valor da variável é $num";
     $num = (int) "560";
     var_dump($num);
+    //amo minha vida
     
     ?>
 </body>
