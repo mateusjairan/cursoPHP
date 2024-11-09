@@ -13,6 +13,7 @@
     $num = (int) "560";
     var_dump($num);
     //amo minha vida
+    //funciona pelo amor de deus
     
     ?>
 </body>
