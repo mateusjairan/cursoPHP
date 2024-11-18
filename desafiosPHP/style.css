@@ -1,0 +1,56 @@
+body{
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body {
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove os paddings padrão */
+    height: 100%; /* Faz o HTML e o BODY ocuparem 100% da altura da viewport */
+}
+
+form{
+    border-radius: 15px;
+    height: 250px;
+    width: 500px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form, h1{
+    /* margin-left: 8%; */
+    
+}
+
+ input[type=text] {
+    /* width: 100%; */
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 15px;
+}
+
+input[type=submit]{
+    /* box-sizing: border-box; */
+    padding: 6px 6px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 15px;
+
+}
